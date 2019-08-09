@@ -1,0 +1,4 @@
+github.com/dradtke/go-allegro v0.0.0-20190729143513-17f529b2e7c8 h1:bV/tZ+1eGKEWN8NLXKyQAKHNZpJo7aHFFeub6fDPMlY=
+github.com/dradtke/go-allegro v0.0.0-20190729143513-17f529b2e7c8/go.mod h1:aGiosQzCwOcEwGtlAcU7WA3g2xu2z5FQXEb37wxISP0=
+github.com/lucasew/golog v0.0.0-20190805103920-c9e25acedf6a h1:V4eJpZKQQkPw68dEIZPqrynAi2CD13yooxKo+WCM88Y=
+github.com/lucasew/golog v0.0.0-20190805103920-c9e25acedf6a/go.mod h1:45lBkIUbTYhkPiAMMYRSDsdHI2oPB0PbtW/dzQmhKj0=
