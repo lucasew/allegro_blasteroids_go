@@ -1,39 +1,39 @@
 package interfaces
 
 import (
-    "github.com/lucasew/allegro_blasteroids_go/point"
+	"github.com/lucasew/allegro_blasteroids_go/point"
 )
 
 type Drawable interface {
-    Draw()
+	Draw()
 }
 
 type Stringable interface {
-    ToString() string
+	ToString() string
 }
 
 type Positionable interface {
-    GetPosition() point.Point
+	GetPosition() point.Point
 }
 
 type Tickable interface {
-    // w and h is the screen size
-    Tick(tick float32, w int, h int)
+	// w and h is the screen size
+	Tick(tick float32, w int, h int)
 }
 
 type Collisionable interface {
-    Positionable
-    DangerRadius() float32
-    IsDead() bool
-    GetPower() int
-    GetLife() int
-    Hurt(amount int)
-    Die()
+	Positionable
+	DangerRadius() float32
+	IsDead() bool
+	GetPower() int
+	GetLife() int
+	Hurt(amount int)
+	Die()
 }
 
 type ListNodePayload interface {
-    Drawable
-    Stringable
-    Collisionable
-    Tickable
+	Drawable
+	Stringable
+	Collisionable
+	Tickable
 }
