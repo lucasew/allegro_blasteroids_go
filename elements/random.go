@@ -21,7 +21,9 @@ func NewRandomColor() allegro.Color {
 	return allegro.MapRGB(byte(rand.Intn(255)), byte(rand.Intn(255)), byte(rand.Intn(255)))
 }
 
-func (s Spaceship) NewBullet() *Bullet {
+func (s *Spaceship) NewBullet() *Bullet {
+	s.mu.Lock()
+	defer s.mu.Unlock()
 	return &Bullet{
 		Power:    rand.Intn(200),
 		Speed:    float32(rand.Intn(50)),

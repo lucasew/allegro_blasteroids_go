@@ -1,0 +1,1 @@
+- 2026-02-20: [Race Condition] Concurrent access to mutable state without synchronization.
