@@ -10,3 +10,5 @@ github.com/lucasew/golog v0.0.0-20251122021803-18b0642ab528 h1:vQTzOGzYthWBO7kCi
 github.com/lucasew/golog v0.0.0-20251122021803-18b0642ab528/go.mod h1:45lBkIUbTYhkPiAMMYRSDsdHI2oPB0PbtW/dzQmhKj0=
 github.com/lucasew/golog v0.0.0-20251220230941-78b73ffc520f h1:ZMFWtPqKq1PXw9qtnXwWhTDT/uobsJpSuvWOFHAe3L4=
 github.com/lucasew/golog v0.0.0-20251220230941-78b73ffc520f/go.mod h1:45lBkIUbTYhkPiAMMYRSDsdHI2oPB0PbtW/dzQmhKj0=
+github.com/lucasew/golog v0.0.0-20260220153839-24b89629f948 h1:Nnee8YfUknybjedvzEoomieYZKc1wHp++NsksT1wZt8=
+github.com/lucasew/golog v0.0.0-20260220153839-24b89629f948/go.mod h1:45lBkIUbTYhkPiAMMYRSDsdHI2oPB0PbtW/dzQmhKj0=
